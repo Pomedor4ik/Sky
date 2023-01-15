@@ -1,0 +1,33 @@
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 60px;
+    background-color: black;
+    &_nav{ 
+        display:flex;
+        width:10%;
+        justify-content: space-between;
+        align-items: center;
+        &_item{
+            color:white;
+        }
+    }
+    &_search{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_input{
+            width: 80%;
+            height: 30px;
+            border: 1 solid red;
+        }
+        &_btn{
+           width: 10%;
+           height: 30px;
+           background-color: red;
+           color:white
+        }
+    }
+}
